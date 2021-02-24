@@ -42,7 +42,8 @@ const MenuEntry = styled.div<Props>`
   }
 
   svg {
-    fill: ${({ theme }) => theme.colors.textSubtle};
+    fill: #fff;
+    stroke: #9ea6b2;
   }
 
   &:hover {
