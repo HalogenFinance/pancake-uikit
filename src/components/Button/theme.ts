@@ -25,7 +25,7 @@ export const light: ButtonTheme = {
     color: lightColors.primary,
   },
   [TERTIARY]: {
-    background: lightColors.tertiary,
+    background: 'rgb(255, 232, 4)',
     backgroundActive: lightColors.tertiary,
     backgroundHover: lightColors.tertiary,
     border: 0,
@@ -86,7 +86,7 @@ export const dark: ButtonTheme = {
   [TERTIARY]: {
     ...light.tertiary,
     background: 'red',
-    backgroundActive: darkColors.tertiary,
+    backgroundActive: 'rgb(255, 232, 4)',
     backgroundHover: darkColors.tertiary,
     color: darkColors.primary,
   },
